@@ -8,8 +8,8 @@
 }
 
 .namehotel {
-    color: rgb(172, 205, 221);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
 }
 
@@ -46,6 +46,7 @@
 .nav-link {
     text-decoration: none;
     color: silver;
+    font: 20px arial, sans-serif;
 }
 
 .header {
@@ -55,6 +56,29 @@
     background-color: rgb(9, 88, 102);
     width: 100%;
     opacity: 0.9;
+}
+
+.description {
+    background-color: steelblue;
+}
+
+footer {
+    background-color: rgb(9, 88, 102);
+    height: 2rem;
+    color: silver;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.container-about_us {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.description {
+    width: 70%;
 }
 
 
