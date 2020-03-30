@@ -1,0 +1,61 @@
+.container-about_us {
+    width: 100%;
+}
+
+.logo img {
+    width: 70%;
+    height: auto;
+}
+
+.namehotel {
+    color: rgb(172, 205, 221);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+}
+
+.reservation {
+    background-color: rgba(66, 147, 185, 0.479);
+    width: fit-content;
+    padding: 0 5px 3px 5px;
+}
+
+.photohotel {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0.6rem 0 0.6rem 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10rem;
+}
+
+.list-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    background-image: url(https://i.postimg.cc/br14r4B2/blackgroundlux.png);
+    height: 6rem;
+    margin: 0 0 0 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: silver;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: rgb(9, 88, 102);
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+/*current working*/
