@@ -55,14 +55,16 @@
                     <label for="destination">Destination</label>
                     <input type="text" name="destination" id="destination" placeholder="Introduce your destination" required/>
                 </div><br>
-                <div class="reservation-form_field">
-                    <label for="checkin">Check-in Date</label>
-                    <input type="date" name="checkin" required/>
-                </div>
-                <br>
-                <div class="reservation-form_field">
-                    <label for="checkout">Check-out Date</label>
-                    <input type="date" name="checkout" required/>
+                <div class="date-reservation">
+                    <div class="reservation-form_field">
+                        <label for="checkin">Check-in Date</label>
+                        <input type="date" name="checkin" required/>
+                    </div>
+                    <br>
+                    <div class="reservation-form_field">
+                        <label for="checkout">Check-out Date</label>
+                        <input type="date" name="checkout" required/>
+                    </div>
                 </div>
                 <br>
                 <div class="custom-wrapper">
@@ -101,6 +103,8 @@
                 </select>
                     </div>
                     <br>
+                </div>
+                <div class="group-children_rooms">
                     <div class="group-field_children">
                         <select name="group_children" id="group_children">
                     <option value="0" selected="selected">
@@ -162,7 +166,7 @@
                     </select>
                     </div>
                     <br>
-                </div>
+                </div> <br>
                 <div class="search-box button-messages">
                     <label>
                         <input name="travel_purpose" type="checkbox" value="business">
@@ -170,7 +174,7 @@
                     </label>
                 </div>
                 <br>
-                <div class="search-box submit-button">
+                <div class="search-box-submit-button">
                     <button type="submit" id="submit">
                         <span>Search</span>
                     </button>

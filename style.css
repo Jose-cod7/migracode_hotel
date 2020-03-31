@@ -18,9 +18,10 @@
 }
 
 .reservation {
-    background-color: rgba(66, 147, 185, 0.479);
+    background-color: rgb(41, 152, 172);
+    border-radius: 7px;
     width: fit-content;
-    padding: 0 5px 3px 5px;
+    padding: 0 7px 3px 7px;
 }
 
 .photohotel {
@@ -82,20 +83,49 @@ footer {
     margin-top: 45px;
 }
 
+
+/* media query with max-witdh i.e.900px */
+
 .description {
     width: 65%;
-    padding: 15px;
+    padding: 0 5px 15px 5px;
     background-color: rgb(9, 88, 102);
-    border-left: 20px solid black;
+    margin: 0 15px 0 15px;
+    border-top: 15px solid black;
     border-radius: 5px;
     color: rgba(255, 255, 255, 0.849);
     text-align: justify;
     font-weight: bold;
+    max-width: 50em;
 }
 
 .center-title {
     color: rgba(255, 255, 255, 0.849);
-    margin: 0;
+    margin: 0 0 0 0;
+    background-color: black;
+}
+
+.reservation-form_field {
+    display: flex;
+    flex-direction: column;
+    /*make the form width 100% flexbox default*/
+}
+
+.date-reservation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.group-field_adults {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-children_rooms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
