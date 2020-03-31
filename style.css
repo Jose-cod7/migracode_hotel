@@ -28,7 +28,13 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 0.6rem 0 0.6rem 0;
+    margin: 0 0 0.6rem 0;
+    background-color: rgb(223, 223, 223);
+}
+
+img {
+    border-radius: 5px;
+    opacity: 0.9;
 }
 
 .header {
@@ -81,6 +87,7 @@ footer {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     margin-top: 45px;
+    margin: 30px 5px 10px 5px;
 }
 
 
@@ -96,7 +103,8 @@ footer {
     color: rgba(255, 255, 255, 0.849);
     text-align: justify;
     font-weight: bold;
-    max-width: 50em;
+    max-width: 60em;
+    line-height: 1.15;
 }
 
 .center-title {
@@ -126,6 +134,39 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.wrapper-rooms {
+    background-color: rgb(216, 216, 216);
+    margin: 0 0 15px 15px;
+}
+
+.information-room {
+    background-color: white;
+    width: fit-content;
+}
+
+.description-room {
+    width: 300px;
+    text-align: center;
+    line-height: 1.15;
+}
+
+.room-rate,
+.list-amenities,
+.book-room,
+h2 {
+    text-align: center;
+}
+
+.list-amenities {
+    list-style-type: none;
+}
+
+.image-room {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 
