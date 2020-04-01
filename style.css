@@ -136,6 +136,12 @@ footer {
     justify-content: space-evenly;
 }
 
+
+/*make the form width 100% flexbox default*/
+
+
+/* style container-info-rooms */
+
 .wrapper-rooms {
     background-color: rgb(216, 216, 216);
     margin: 0 0 15px 15px;
@@ -144,6 +150,7 @@ footer {
 .information-room {
     background-color: white;
     width: fit-content;
+    padding: 3px 3px 3px 3px;
 }
 
 .description-room {
@@ -157,6 +164,16 @@ footer {
 .book-room,
 h2 {
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.header-rooms h2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.header-rooms {
+    display: flex;
+    justify-content: center;
 }
 
 .list-amenities {
@@ -169,5 +186,9 @@ h2 {
     align-content: center;
 }
 
-
-/*current working*/
+.information-room {
+    position: absolute;
+    left: 560px;
+    top: 1450px;
+    box-shadow: 10px 10px 10px rgb(160, 160, 160);
+}
