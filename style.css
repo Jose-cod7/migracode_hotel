@@ -192,3 +192,11 @@ h2 {
     top: 1450px;
     box-shadow: 10px 10px 10px rgb(160, 160, 160);
 }
+
+
+/* hotel search style */
+
+.reason {
+    margin: 0 5px 15px 5px;
+    border-bottom: 2.5px solid gray;
+}
